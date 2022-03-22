@@ -442,11 +442,10 @@
     </footer>
     <script>
       //EX11) Write a function to add a new link into the navbar
-      let newNavvBarLink = document.createElement(
-        <a class="p-2 text-muted" href="#">
+      let newNavvBarLink = document.createElement("a");
+      newNavvBarLink.innerHTML = `<a class="p-2 text-muted" href="#">
           New Link
-        </a>
-      );
+        </a>`;
       document.querySelector("nav-scroller").appendChild(newNavvBarLink);
       //
       //EX12) Write a function to change the color of the main title ((which one is the main title tho?))
