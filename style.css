@@ -1,0 +1,6 @@
+.jumbotron h1 {
+  color: red;
+}
+.nav-scroller a[href="#"] {
+  background-color: red;
+}
