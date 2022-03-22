@@ -2,9 +2,10 @@
 let newNavvBarLink = document.createElement(<a class="p-2 text-muted" href="#">New Link</a>)
 document.querySelector("nav-scroller").appendChild(newNavvBarLink)
 //EX12) Write a function to change the color of the main title ((which one is the main title tho?))
-let title = document.querySelector("div.jumbotron .h1");
-title = "new title"
+let titles = document.querySelector("title");
+titles.innerHTML = "new title"
 //EX13) Write a function to change the background of the jumbotron
+
 //EX14) Write a function to remove all the links under "Elsewhere"
 //EX15) Write a function to change the column size for heading in jumbotron
 //EX16) Write a function to remove the "Search" magnifying glass icon
