@@ -3,7 +3,7 @@
   color: red;
 }
 /*EX2) Write a selector to target every children of the navbar*/
-.nav-scroller a[href="#"] {
+.nav-scroller {
   background-color: red;
 }
 /*EX3) Write a selector to target the "continue reading..." inside the jumbotron*/
@@ -14,14 +14,26 @@
 .row div:only-child {
   background-color: aquamarine;
 }
-/* EX5) Write a selector to target the "even" links in the navbar */
-
+/* EX5) Write a selector to target the "even" links in the navbar ????? even what???? */
+.nav-scroller a[href="#"] {
+  background-color: white;
+}
 /* EX6) Write a selector to target the last blog post */
-
+div.blog-post {
+  background-color: aqua;
+}
 /* EX7) Write a selector to target all the li into the first ordered-list in the sidebar ( Archives ) */
-
+.p-4 ol li :first-of-type {
+  background-color: red;
+}
 /* EX8) Write a selector to target the second post author */
-
+.blog-post .blog-post-meta a[href="#"] {
+  background-color: red;
+}
 /* EX9) Write a selector to target the "back to top" link     #### EXTRA Try doing it without targeting the footer element directly */
-
-/* EX10) Write a selector to target the footer */
+.blog-footer p > a[href="#"] {
+  background-color: red;
+} /* EX10) Write a selector to target the footer */
+.blog-footer {
+  background-color: blue;
+}
